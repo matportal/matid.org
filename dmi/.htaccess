@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^SDO/DIN(.*) https://demo.fiz-karlsruhe.de/pmd/resource/$1
